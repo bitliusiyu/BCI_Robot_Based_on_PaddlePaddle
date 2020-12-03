@@ -1,0 +1,78 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by the Vision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=qm-ssvep-bp-sin-20190718.eeg
+MarkerFile=qm-ssvep-bp-sin-20190718.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=4
+; Sampling interval in microseconds
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=P3,,0.0488281,µV
+Ch2=O1,,0.0488281,µV
+Ch3=Oz,,0.0488281,µV
+Ch4=O2,,0.0488281,µV
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.21.0303
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 4
+Sampling Rate [Hz]: 500
+Sampling Interval [µS]: 2000
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Gradient         Offset
+1     P3          14         0.0488281 µV             DC              140              Off
+2     O1          16         0.0488281 µV             DC              140              Off
+3     Oz          17         0.0488281 µV             DC              140              Off
+4     O2          18         0.0488281 µV             DC              140              Off
+
+Reference Channel Name = Cz
+Reference Phys. Chn.   = 10
+Good Level [kOhms]     = 10
+Bad Level [kOhms]      = 50
+MY-Button Workspace    = C:\Vision\Workfiles\MYButton
+
+Amplifier 
+actiCHamp Base Unit (5001) 
+  --- S/N 18061042 --- 
+
+actiCHamp 32 CH Module
+  --- Module 1 (5010): S/N 18061929 ---
+Version: DLL_25.17.04.28, DRV_03.04.01.146, CTRL_103.17.02.27, FPGA_48.00.00.00, FPGAC_45.00.00.00, DSP_105.14.10.07 
+
+
+S o f t w a r e  F i l t e r s
+==============================
+#     Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]
+1      0.3              45                 50
+2      0.3              45                 50
+3      0.3              45                 50
+4      0.3              45                 50
+
+
+Data/Gnd Electrodes Selected Impedance Measurement Range: 10 - 50 kOhm
+Impedance [kOhm] at 21:03:27 :
+P3:           6
+O1:           6
+Oz:          10
+O2:           8
+Cz:           8
+Gnd:          0
